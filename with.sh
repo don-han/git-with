@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git_with=$HOME/.git_with
+git_with=$HOME/.git-with
 
 authors=$git_with"/authors.csv"
 git_template=$git_with"/template"
