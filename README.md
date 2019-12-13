@@ -7,7 +7,8 @@ It's written in bash for minimal dependency.
 
 ## Usage
 
-Pair functionality
+You can add your pair partner:
+
 `with dh`
 
 ```
@@ -17,7 +18,7 @@ Co-authored-by: Don Han <don@han.com>
 ```
 
 
-Supports multiple co-authors or mobbing
+Or add multiple co-authors:
 `with dh ag`
 ```
 
@@ -26,8 +27,13 @@ Co-authored-by: Don Han <don@han.com>
 Co-authored-by: Abhishek Gayakwad <abhishek@gayakwad.com>
 ```
 
-Clears all co-authors
+Clear all co-authors:
 `with`
+```
+
+
+
+```
 
 
 ## Setup
