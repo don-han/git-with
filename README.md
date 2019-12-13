@@ -31,10 +31,10 @@ Clears all co-authors
 
 
 ## Setup
-
-1. Move this repo into `$HOME`
-1. `git config --global commit.template ~/.git-with/template`
-1. `alias with="bash ~/.git-with/with.sh"`
+1. Run `setup.sh` which does the followings:
+  1. Move this repo into `$HOME` and prefix with `.` to hide it
+  1. `git config --global commit.template ~/.git-with/template`
+  1. `alias with="bash ~/.git-with/with.sh"`
 1. Populate `~/.git-with/authors.csv` with nickname, full name and email address
 
 
