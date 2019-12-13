@@ -52,3 +52,4 @@ $ `with`
 
 - Cleans git commit template everytime it's called, so if you like to have a custom git commit template, you might have to find a workaround
 - If nickname cannot be found, it writes `Co-authored-by:  <>`
+- Does not work with `git commit -m`
