@@ -7,9 +7,9 @@ It's written in bash for minimal dependency.
 
 ## Usage
 
-You can add your pair partner:
+You can add your pair partner
 
-`with dh`
+$ `with dh`
 
 ```
 
@@ -18,8 +18,9 @@ Co-authored-by: Don Han <don@han.com>
 ```
 
 
-Or add multiple co-authors:
-`with dh ag`
+Or add multiple co-authors
+
+$ `with dh ag`
 ```
 
 
@@ -27,8 +28,9 @@ Co-authored-by: Don Han <don@han.com>
 Co-authored-by: Abhishek Gayakwad <abhishek@gayakwad.com>
 ```
 
-Clear all co-authors:
-`with`
+Clear all co-authors
+
+$ `with`
 ```
 
 
@@ -49,4 +51,3 @@ Clear all co-authors:
 
 - Cleans git commit template everytime it's called, so if you like to have a custom git commit template, you might have to find a workaround
 - If nickname cannot be found, it writes `Co-authored-by:  <>`
-- Setup could be more streamlined with a script
