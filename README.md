@@ -1,5 +1,5 @@
 
-## What
+## Why use `with`?
 `with` makes it easy to credit everyone who contributed in a pair programming or in a mob programming. It acknowledges the team effort through `co-authored-by` Github feature without you having to remember your team member's github email address or worrying about spelling their last name correctly.
 
 It's written in bash for minimal dependency.
