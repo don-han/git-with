@@ -43,6 +43,7 @@ $ `with`
 - Take a look at `setup.sh` before running to make sure it doesn't replace your pre-existing setup
 
 ### Instruction
+1. Clone this repo and `cd` into the repo
 1. Run `bash setup.sh`
 1. Populate `~/.git-with/authors.csv` with nickname, full name and email address
 
