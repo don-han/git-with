@@ -1,6 +1,6 @@
 
 ## Why use `with`?
-`with` makes it easy to credit everyone who contributed in a pair programming or in a mob programming. It acknowledges the team effort through `co-authored-by` Github feature without you having to remember your team member's github email address or worrying about spelling their last name correctly.
+`with` makes it easy to credit everyone who contributed in a pair programming or in a mob programming. It acknowledges the team effort leveraging [`Co-authored-by` Github feature](https://docs.github.com/en/free-pro-team@latest/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors#creating-co-authored-commits-on-the-command-line) without you having to remember your team member's github email address or worrying about spelling their last name correctly.
 
 It's written in bash for minimal dependency.
 
