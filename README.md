@@ -38,6 +38,7 @@ $ `with`
 
 ```
 
+Then when you are ready, `git commit` and the co-author field should be pre-populated
 
 ## Setup Instruction
 
