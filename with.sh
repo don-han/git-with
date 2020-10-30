@@ -16,7 +16,7 @@ echo >> $git_template
 
 for nickname in $args
 do
-    author=$(grep $nickname $authors)
+    author=$(grep ^$nickname $authors)
     message=$(awk -F ',' '{ print "Co-authored-by: " $2 " " "<" $3 ">" }' <<< "$author" >> "$git_template") 
 done
 
