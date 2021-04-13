@@ -1,6 +1,6 @@
 
 ## Why use `with`?
-`with` makes it easy to credit everyone who contributed in a pair programming or in a mob programming. It acknowledges the team effort leveraging [`Co-authored-by` Github feature](https://docs.github.com/en/free-pro-team@latest/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors#creating-co-authored-commits-on-the-command-line) without you having to remember your team member's Github email address or worrying about spelling their last name correctly. 
+`with` makes it easy to credit everyone who contributed in a pair programming or in a mob programming. It acknowledges the team effort leveraging [`Co-authored-by` Github feature](https://docs.github.com/en/free-pro-team@latest/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors#creating-co-authored-commits-on-the-command-line) without you having to remember your team member's email address or worrying about spelling their last name correctly. 
 
 By programmatically crediting everyone, Github can filter commits based on each author and have accurate portrayal of code contribution.
 
@@ -38,11 +38,11 @@ $ `with`
 
 ```
 
-Then when you are ready, `git commit` and the co-author field should be pre-populated
+Then when you are ready, `git commit` and the co-author field should be pre-populated.
 
 ## Setup Instruction
 
-*Take a look at `setup.sh` before running to make sure it doesn't replace your pre-existing setup*
+*Take a look at `setup.sh` before running to make sure it doesn't replace your setup*
 
 1. Clone this repo and `cd` into the repo
 1. Run `bash setup.sh` (this moves the repo to `~/`)
