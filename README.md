@@ -40,6 +40,17 @@ $ `with`
 
 Then when you are ready, `git commit` and the co-author field should be pre-populated.
 
+### For Rdar Users
+
+$ `with rdar://12343214 dh aw`
+```
+<rdar://12343214>
+
+
+Co-authored-by: Don Han <don@han.com>
+Co-authored-by: Abhishek Gayakwad <abhishek@gayakwad.com>
+```
+
 ## Setup Instruction
 
 *Take a look at `setup.sh` before running to make sure it doesn't replace your setup*
