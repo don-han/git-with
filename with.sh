@@ -1,9 +1,9 @@
 #!/bin/bash
 
-git_with=$HOME/.git-with
+git_with=${HOME}/.git-with
 
-authors=$git_with"/authors.csv"
-git_template=$git_with"/template"
+AUTHORS_FILE_LOCATION="${git_with}/authors.csv"
+git_template="${git_with}/template"
 
 args="$@"
 
@@ -23,7 +23,7 @@ fi
 
 for nickname in $args
 do
-    author=$(grep ^$nickname $authors)
+    author=$(grep ^$nickname $AUTHORS_FILE_LOCATION)
     message=$(awk -F ',' '{ print "Co-authored-by: " $2 " " "<" $3 ">" }' <<< "$author" >> "$git_template")
 done
 
