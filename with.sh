@@ -21,6 +21,8 @@ then
     args="$@"
 fi
 
+echo >> $git_template
+echo >> $git_template
 for nickname in $args
 do
     author=$(grep ^$nickname $AUTHORS_FILE_LOCATION)
