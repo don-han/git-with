@@ -42,7 +42,7 @@ Then when you are ready, `git commit` and the co-author field should be pre-popu
 
 ### For Rdar Users
 
-$ `with rdar://12343214 dh aw`
+$ `with rdar://12343214 dh ag`
 ```
 <rdar://12343214>
 
